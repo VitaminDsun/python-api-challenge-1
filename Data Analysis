@@ -1,0 +1,12 @@
+Data Analysis
+
+
+-weatherpy
+
+after pulling in the information from openweather map and then created json request to gather latitutude, longitude, cloudiness, temperature, humidity, and wind speed. once this information i was able to create a few charts comparing, Temperature (F) vs. Latitude, Humidity (%) vs. Latitude, Cloudiness (%) vs. Latitude, Wind Speed (mph) vs. Latitude. this kind of showed me a lot of information confirming my ideas before the graphs were made such as latitude closer to the equator would have higher temps and varying levels of humidity and windspeed a few pieces of information I was able to look at that would be different depending on location would be Cloudiness and this was where I would going to look in my analysis because this seemed to be the major factor that could change and then from there I was able take this information and make some new parameters to look in to as well as northern and southern hemisphere to compare the north and south alongside the other inputs longitude, cloudiness, temperature, humidity, and wind speed. a few predictions I was able to make was that the more northern and southern locations would have much higher extremes in terms and humidity as well as varying windspeeds this was proven with the graphs that were made in the project 
+
+
+
+-vacationpy
+
+I then converted the datagram to a CSV after gathering the information I made some changes to the parameters to lower the sample size of the data to have a smaller api request list to not overuse my key. Filter vacation with max temp above 70 degrees Below 80 degrees F, with zero cloudiness, wind speed below 10 mph, humidity below 65 % this only left me with a few locations that were described as perfect vacation, I was able to creat a heat map showing locations that fit the filters. I then used the gaps API to look for hotels, based on the results of the  Filters I placed I felt there would be little to no hotels in the locations that were provided I then did a search for hotels in the locations still remaining on the data frame this resulted in no hotels found so this was proven that having too strict of  Filters can eliminate a lot of the options one limitation of this would be the time of year this is done because the seasons changing could change these results widely as well as the fact that not all hotels are listed on google in the more rural where the weather might be traced but there might also not be a hotel in the area as well 
