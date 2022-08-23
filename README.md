@@ -1,3 +1,8 @@
+![take off](https://user-images.githubusercontent.com/93777016/186047341-ed2cca49-ccbf-4f76-8524-1ba05cb8812c.jpg)
+
+
+
+
 # Unit 6 Homework: What's the Weather Like?
 
 ## Background
